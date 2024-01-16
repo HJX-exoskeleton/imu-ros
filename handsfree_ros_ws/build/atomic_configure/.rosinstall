@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hjx/handsfree/handsfree_ros_ws/devel/setup.sh

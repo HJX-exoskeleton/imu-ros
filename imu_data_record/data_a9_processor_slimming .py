@@ -9,7 +9,7 @@ imu_data = pd.read_csv(file_path)
 # New upper and lower limits for the group size
 upper_limit = 80
 lower_limit = 40
-final_group_constraint = 0.9  # 90% of the optimal group size
+final_group_constraint = 0.90  # 90% of the optimal group size
 
 # Calculate the total number of rows in the dataset
 total_rows = len(imu_data)

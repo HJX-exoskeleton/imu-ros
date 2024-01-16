@@ -147,7 +147,7 @@ if __name__ == "__main__":
     else:
         # 定义保存数据的文件名和持续时间
         file_name = '/home/hjx/handsfree/imu_data_record/hfi_a9_timer/imu_data_a9_timer.csv'  # 可以根据需要更改文件名和路径
-        duration = 3  # 自定义保存多少秒数据，可根据需要调整
+        duration = 1  # 自定义保存多少秒数据，可根据需要调整
 
         start_time = time.time()
         end_time = start_time + duration
